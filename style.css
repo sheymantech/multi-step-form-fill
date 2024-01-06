@@ -267,9 +267,7 @@ img {
   text-decoration: underline;
   color: blue !important;
 }
-.copy-write {
-  font-size: 20px;
-}
+
 .add-ons-choose {
   display: flex;
   justify-content: space-between;
@@ -297,6 +295,19 @@ img {
   height: 50px;
   margin-bottom: 1rem;
 }
+
+/* for footer section */
+
+@media only screen and (min-width: 800px) {
+  .copy-write {
+    font-size: 20px;
+    position: absolute;
+    bottom: 2%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+
 @media only screen and (max-width: 800px) {
   .img-desktop {
     display: none;
